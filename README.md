@@ -14,7 +14,7 @@ A concatenação em Python é o processo de unir duas ou mais strings. O operado
 
 ### Exemplo de Concatenação de Strings:
 ```python
-# Concatenando duas strings
+> Concatenando duas strings
 parte1 = "Olá"
 parte2 = "Mundo"
 resultado = parte1 + " " + parte2
@@ -23,7 +23,30 @@ print(resultado)  # Saída: Olá Mundo
 
 # Neste exemplo, usamos o operador + para juntar duas strings e o " " (espaço) para garantir que haja uma separação entre elas.
 
-# Operações Matemáticas Simples
-Python suporta operações matemáticas básicas como adição, subtração, multiplicação e divisão. Estas operações podem ser feitas de forma direta com os operadores aritméticos.
+> Exemplos de operações matemáticas
 
-Exemplo de Operações Matemáticas:
+# Definindo dois números
+num1 = 10
+num2 = 5
+
+# Operações básicas
+soma = num1 + num2        # Adição
+subtracao = num1 - num2   # Subtração
+multiplicacao = num1 * num2  # Multiplicação
+divisao = num1 / num2     # Divisão
+
+print(soma)           # Saída: 15
+print(subtracao)      # Saída: 5
+print(multiplicacao)  # Saída: 50
+print(divisao)        # Saída: 2.0
+
+> Repetindo uma string
+
+texto = "Olá"
+repeticoes = 3
+resultado = (texto + " ") * repeticoes
+
+print(resultado)  # Saída: Olá Olá Olá 
+
+
+> Esse README oferece uma visão geral básica de Python, explicando os conceitos de concatenação de strings, operações matemáticas e repetição de textos, com exemplos de código.
